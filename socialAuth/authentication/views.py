@@ -27,3 +27,6 @@ def signup(request):
 @login_required
 def home(request):
     return render(request, 'authentication/home.html')
+
+# <a href="{% url 'settings' %}">settings</a> /
+# <a href="{% url 'password' %}">change password</a> />
